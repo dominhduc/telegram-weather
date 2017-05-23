@@ -1,0 +1,45 @@
+{
+  "name": "telegram-weather",
+  "version": "0.1.1",
+  "description": "telegram-weather - the Telegram bot that shows weather",
+  "keywords": [
+    "Telegram",
+    "bot",
+    "weather"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanoff/telegram-weather"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanoff/telegram-weather/issues"
+  },
+  "main": "lib/bot.js",
+  "bin": {
+    "telegram-weather": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": {
+    "name": "Dimitry Ivanov",
+    "email": "2@ivanoff.org.ua",
+    "url": "curl -A cv ivanoff.org.ua"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^8.0.2"
+  },
+  "dependencies": {
+    "async": "^1.5.1",
+    "city-weather": "^1.0.4",
+    "config": "^1.17.1",
+    "cron": "^1.2.1",
+    "node-telegram-bot-api": "^0.27.1",
+  }
+}
