@@ -40,6 +40,6 @@
     "city-weather": "^1.0.4",
     "config": "^1.17.1",
     "cron": "^1.2.1",
-    "node-telegram-bot-api": "^0.27.1",
+    "node-telegram-bot-api": "^0.27.1"
   }
 }
